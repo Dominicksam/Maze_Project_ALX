@@ -4,3 +4,12 @@ This project is a first person `3D` maze game made using `SDL2` and `C`. It runs
 
 The Maze was written  in C using `SDL2` library. Deveploment was performed using Ubuntu 14.04 LTS - gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
 
+
+HOW TO PLAY THE GAME
+Download the repository 
+compile with
+gcc -g -Wall -Werror -Wextra -pedantic -I/usr/local/include/SDL2 ./src/*.c -o maze -L/usr/lib/x86_64-linux-gnu -lSDL2 -lm
+
+run with
+./maze maps/level_1
+
