@@ -5,16 +5,16 @@
  **/
 void print_win(void)
 {
-	printf("\n\n\n\n\n\n\n\n\n\n");
-	printf("     \\  /  __   |     |\n");
-	printf("      \\/  /  \\  |     |\n");
-	printf("      /  |    | |     |\n");
-	printf("     /    \\__/   \\___/\n\n");
-	printf("\\      /\\      / ------- |\\   |\n");
-	printf(" \\    /  \\    /     |    | \\  |\n");
-	printf("  \\  /    \\  /      |    |  \\ |\n");
-	printf("   \\/      \\/    ------- |   \\|\n");
-	printf("\n\n\n\n\n\n\n\n\n\n");
+    printf("\n\n\n\n\n\n\n\n\n\n");
+    printf("     \\  /  __   |     |\n");
+    printf("      \\/  /  \\  |     |\n");
+    printf("      /  |    | |     |\n");
+    printf("     /    \\__/   \\___/\n\n");
+    printf("\\      /\\      /  \\ | /  |\\   |\n");
+    printf(" \\    /  \\    /    \\|/   | \\  |\n");
+    printf("  \\  /    \\  /      |    |  \\ |\n");
+    printf("   \\/      \\/       |    |   \\|\n");
+    printf("\n\n\n\n\n\n\n\n\n\n");
 }
 
 /**
