@@ -1,15 +1,19 @@
-# The Maze Project 
+The Maze
+The Maze is a 3D game that uses ray casting to render a 2D map into a 3D navigable world!
 
-This project is a first person `3D` maze game made using `SDL2` and `C`. It runs on Mac OS X and Linux/Ubuntu. The game uses the technique raycasting to create the apparent `3D` nature of the maze. The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world! 
+The Maze was written in C using SDL2 library. Development was performed using Ubuntu 24.04 - gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0
 
-The Maze was written  in C using `SDL2` library. Deveploment was performed using Ubuntu 14.04 LTS - gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
+About SDL2
+Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award-winning catalog and many Humble Bundle games.
 
+Installation
+$ git clone https://github.com/Dominicksam/Maze_Project_ALX
 
-HOW TO PLAY THE GAME
-Download the repository 
-compile with
-gcc -g -Wall -Werror -Wextra -pedantic -I/usr/local/include/SDL2 ./src/*.c -o maze -L/usr/lib/x86_64-linux-gnu -lSDL2 -lm
+Usage
+Execute ./maze maps/level_1 or type make run
+Use up and down arrow keys to move forward and backward 
+Use the right and left arrow keys to turn the camera around 
 
-run with
-./maze maps/level_1
+Compilation
+$ gcc -g -Wall -Werror -Wextra -pedantic -I/usr/local/include/SDL2 ./src/*.c -o maze -L/usr/lib/x86_64-linux-gnu -lSDL2 -lm
 
